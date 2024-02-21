@@ -1,0 +1,91 @@
+.addcard {
+  background-color: #fff;
+  padding: 10px;  
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+  height: 170px;
+  border-radius: 8px; /* Added rounded corners */
+}
+
+input[type="text"] {
+  width: 90%; /* Adjusted width to be 25px less */
+  padding: 10px; /* Increased padding for better aesthetics */
+  margin-bottom: 15px; /* Added more space between the inputs */
+  border: 1px solid #ccc; /* Added a subtle border */
+  border-radius: 4px; /* Added rounded corners to inputs */
+  margin-right: 25px;
+}
+
+input[type="submit"],
+input[type="button"]{
+  background-color: #333; /* Background color for the buttons */
+  color: #fff; /* Text color for the buttons */
+  padding: 10px 20px; /* Padding for the buttons */
+  border: none; /* Remove the button border */
+  cursor: pointer; /* Change cursor on hover */
+  margin-right: 10px; /* Add space between the buttons */
+  border-radius: 4px; /* Added rounded corners to buttons */
+  float: right;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-color: #444; /* Change background color on hover */
+}
+/* Style the table container */
+.table-container {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 90%;
+}
+
+/* Style the table */
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Style the table header */
+.table-container table th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style the table rows */
+.table-container table tr {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Style the table cells (columns) */
+.table-container table td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style the action links */
+.table-container table a.add-link,
+.table-container table a.delete-link {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+/* Style the links on hover */
+.table-container table a.add-link:hover,
+.table-container table a.delete-link:hover {
+  background-color: #444;
+  text-decoration: none;
+}
+

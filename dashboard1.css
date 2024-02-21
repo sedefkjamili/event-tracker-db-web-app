@@ -1,0 +1,74 @@
+/* Reset some default margin and padding */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    min-height: 100vh; /* Set a minimum height of 100% of the viewport height */
+    margin: 0;
+}
+
+.dashboard {
+    display: flex;
+}
+
+.logos img {
+    padding-top: 25px;    /* Adds 25 pixels of padding to the top of the image */
+    margin-left: 25px;    /* Adds 25 pixels of left margin to the image */
+    height: 100px;        /* Sets the height of the image to 100 pixels */
+    margin-bottom: 20px;  /* Adds 20 pixels of bottom margin to the image */
+}
+
+/* Style the sidebar */
+/* Updated Sidebar Styling */
+.sidebar {
+    width: 250px;
+    min-height: 100vh; /* Set a minimum height of 100% of the viewport height */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+
+/* Updated Sidebar Link Styling */
+.sidebar a {
+    display: grid;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #444;
+}
+
+button[name="logout"] {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #C6283E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[name="logout"]:hover {
+    background-color: #d32f2f;
+}
+
+.white-heading {
+    background-color: #fff;
+    padding: 10px;
+    width: 80vw;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}

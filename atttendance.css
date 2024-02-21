@@ -1,0 +1,38 @@
+.attendance-container, .report-container {
+    background-color: #fff;
+    padding: 20px;  
+    margin: 20px;
+    width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; /* Added rounded corners */
+    display: inline-block; /* Use inline-block to make them stay next to each other */
+    vertical-align: top; 
+}
+
+/* Style form elements */
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form select,
+form input[type="date"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style the submit button */
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}

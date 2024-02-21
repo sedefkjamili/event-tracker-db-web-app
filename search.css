@@ -1,0 +1,52 @@
+.search-container {
+    background-color: #fff;
+    padding: 10px;  
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+input[type="text"] {
+    width: 90%; /* Adjusted width to be 25px less */
+    padding: 10px; /* Increased padding for better aesthetics */
+    margin-bottom: 15px; /* Added more space between the inputs */
+    border: 1px solid #ccc; /* Added a subtle border */
+    border-radius: 4px; /* Added rounded corners to inputs */
+    margin-right: 25px;
+}
+
+.search-button{
+  background-color: #333; /* Background color for the buttons */
+  color: #fff; /* Text color for the buttons */
+  padding: 10px 20px; /* Padding for the buttons */
+  border: none; /* Remove the button border */
+  cursor: pointer; /* Change cursor on hover */
+  margin-right: 10px; /* Add space between the buttons */
+  border-radius: 4px; /* Added rounded corners to buttons */
+  float: right;
+}
+  
+.search-table {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 90%;
+}
+
+.custom-heading {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.custom-line {
+    margin-left: 20px;
+}
+
